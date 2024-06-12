@@ -16,3 +16,5 @@ Steps:
 ![image](https://github.com/Stiffpixels/HootHoot/assets/32983571/fd6d58a4-e7ba-4d03-baf9-222d11430876)
 
 - Now the extension is available in the extension tab.
+
+![image](https://github.com/Stiffpixels/HootHoot/assets/32983571/b42b58b1-b436-4674-9fd9-ce5d7142f54f)
