@@ -7,6 +7,7 @@ Steps:
 ![image](https://github.com/Stiffpixels/HootHoot/assets/32983571/a07bd6f2-e4e4-4094-bcde-e88d6415e564)
 
 - Click on manage extensions.
+- Turn on developer mode on the top right corner.
 - Now click on load unpacked.
 
 ![image](https://github.com/Stiffpixels/HootHoot/assets/32983571/a969c8c5-f08b-47f4-b409-b9d55243d6d1)
