@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Movie</title>
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      *,
+      :root,
+      :root::before,
+      :root::after {
+        box-sizing: inherit;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        background-color: rgb(14, 14, 14);
+      }
+      @supports (-webkit-appearance: none) {
+        body {
+          width: 255px;
+        }
+      }
+
+      .main-container {
+        padding: 1.5em;
+        background-color: rgb(41, 41, 41);
+        transition: display 0.3s linear;
+      }
+
+      .random-movie__image {
+        display: inline-block;
+        max-width: 60%;
+        height: 200px;
+        overflow: hidden;
+        object-fit: cover;
+        order: -1;
+        border-radius: 5px;
+      }
+
+      .random-movie__container {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+        border-top: 2px solid white;
+      }
+
+      .random-btn {
+        padding: 0.8em 1.5em;
+        font-size: 1rem;
+        margin: 0;
+        border: 0;
+        background-color: deepskyblue;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 30px;
+      }
+
+      .random-btn:hover {
+        background-color: rgb(19, 175, 227);
+      }
+
+      .main-title {
+        margin-top: 1em;
+        font-size: 1.2rem;
+      }
+
+      #getRandomMovie {
+        text-align: center;
+        padding-bottom: 2rem;
+      }
+
+      .random-movie__more-details {
+        align-self: end;
+        margin-top: 0.2em;
+      }
+
+      .random-movie__more-details a {
+        color: deepskyblue;
+        font-size: 0.875rem;
+      }
+
+      .random-movie__title {
+        font-size: 0.9rem;
+      }
+      footer {
+        text-align: center;
+      }
+      .credit-link {
+        font-size: 0.7rem;
+        color: rgb(105, 105, 105);
+        text-decoration: none;
+      }
+    </style>
+    <script src="script.mjs" type="module" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <main>
+        <article>
+          <section id="getRandomMovie">
+            <h1 class="main-title">Movie Recommendation</h1>
+            <button class="random-btn">get random movie</button>
+          </section>
+          <section id="RandomMovie" class="random-movie">
+            <div class="random-movie__container">
+              <!-- <div class="title-rating-container">
+                <h2 class="random-movie__title">EX Machina</h2>
+                <p class="random-movie__rating">5⭐</p>
+              </div>
+              <img src="https://pics.filmaffinity.com/Ex_Machina-330032046-large.jpg" alt="movie poster" class="random-movie__image" />
+              <p class="random-movie__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus sequi ipsa sunt aspernatur placeat obcaecati asperiores quia aut magni.</p>
+            </div> -->
+              <div class="title-rating-container">
+                <h2 class="random-movie__title"></h2>
+              </div>
+              <img src="" alt="" class="random-movie__image" />
+              <p class="random-movie__more-details"><a target="_blank" href="">More Details→</a></p>
+            </div>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <a href="https://www.flaticon.com/free-icons/rating" title="rating icons" class="credit-link">Icon by Freepik - Flaticon</a>
+      </footer>
+    </div>
+  </body>
+</html>
