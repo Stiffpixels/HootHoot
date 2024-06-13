@@ -1,3 +1,14 @@
+## Add the extension to firefox from addon store:
+
+[HootHoot](https://addons.mozilla.org/en-US/firefox/addon/hoothoot/)
+
+## Add to firefox
+- Download the zip file and extract it into any new folder.
+- go to about:debugging page on firefox by entering it in url bar.
+- click on this firefox from the left.
+- Click on load temporary addon.
+- Select the html file for the extension from the folder you extracted the contents into.
+
 ## Add to chrome
 
 Steps:
